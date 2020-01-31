@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Holden Wiese</title>
+    <link rel="stylesheet" href="./content/css/fonts.css">
     <link rel="stylesheet" href="./content/css/index.css">
 </head>
 
 <body>
 
+    <!-- Fade the webpage in. -->
+    <script>
+        document.body.className = 'fade';
+    </script>
+
     <!-- A nav bar -->
     <div class="navContainer">
         <nav>
-            <a href="#"><span class="navLink">Resume</span></a>
-            <a href="#"><span class="navLink">Projects</span></a>
-            <a href="#"><span class="navLink">About Me</span></a>
+            <a href="./content/images/Tech Resume Holden Wiese Draft 1.pdf"><span class="navLink">Resume</span></a>
+            <a href="./content/html/porjects.html"><span class="navLink">Projects</span></a>
+            <a href="./content/html/aboutme.html"><span class="navLink">About Me</span></a>
         </nav>
     </div>
 
@@ -27,6 +33,12 @@
             <br><br>Visit any of the links above to learn more about me and my work.</span>
     </div>
 
+    <!-- Removing the fade in effect. -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+          document.body.className = '';
+        });
+      </script>
 
     <script src="./content/js/index.js"></script>
 </body>
