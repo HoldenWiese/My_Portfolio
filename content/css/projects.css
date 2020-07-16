@@ -5,40 +5,20 @@
     margin: auto;
 }
 
-#row-height {
-    height: 100%;
-}
-
 /* Sizing the left window. Vertical nav */
 
 /* Sizing the right window. Projects*/
-
-#project-window {
-    height: 100%;
-    padding: 0;
-}
-
-#ajax-content {
-    height: 100%;
-}
-
 #project-title {
-    background-color: red;
-    height: 10%;
     overflow: auto;
 }
 
 #project-info {
-    background-color: green;
     width: 20%;
-    height: 90%;
     float: left;
 }
 
 #project-main {
-    background-color: grey;
     width: 80%;
-    height: 90%;
     float: left;
     overflow: auto;
 }
