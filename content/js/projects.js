@@ -10,17 +10,37 @@ function loadDoc(url, cFunction) {
     xhttp.send();
 }
 
-function myFunction(xhttp) {
+function loadTicTacToe(xhttp) {
     document.getElementById("ajax-content").innerHTML =
-    xhttp.responseText;
-  }
-
-function loadTicTacToe(xhttp){
-    document.getElementById("ajax-content").innerHTML =
-    xhttp.responseText;
+        xhttp.responseText;
 }
 
-function loadBootCamp(xhttp){
+function loadBootCamp(xhttp) {
     document.getElementById("ajax-content").innerHTML =
-    xhttp.responseText;
+        xhttp.responseText;
+}
+
+function loadCodeFirstForm(xhttp) {
+    document.getElementById("ajax-content").innerHTML =
+        xhttp.responseText;
+}
+
+function loadDatabaseFirst(xhttp) {
+    document.getElementById("ajax-content").innerHTML =
+        xhttp.responseText;
+}
+
+function loadCSharp21(xhttp) {
+    document.getElementById("ajax-content").innerHTML =
+        xhttp.responseText;
+}
+
+function loadPythonApp(xhttp) {
+    document.getElementById("ajax-content").innerHTML =
+        xhttp.responseText;
+}
+
+function loadSQL(xhttp) {
+    document.getElementById("ajax-content").innerHTML =
+        xhttp.responseText;
 }
