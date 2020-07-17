@@ -1,3 +1,5 @@
+console.log(0 && hi)
+//AJAX function
 function loadDoc(url, cFunction) {
     var xhttp;
     xhttp = new XMLHttpRequest();
@@ -10,6 +12,7 @@ function loadDoc(url, cFunction) {
     xhttp.send();
 }
 
+//projects.html AJAX callbacks
 function loadTicTacToe(xhttp) {
     document.getElementById("ajax-content").innerHTML =
         xhttp.responseText;
@@ -42,5 +45,11 @@ function loadPythonApp(xhttp) {
 
 function loadSQL(xhttp) {
     document.getElementById("ajax-content").innerHTML =
+        xhttp.responseText;
+}
+
+//bootCamp.html AJAX callbacks
+function bootCampOverview(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
