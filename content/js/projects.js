@@ -49,7 +49,13 @@ function loadSQL(xhttp) {
 }
 
 //bootCamp.html AJAX callbacks
-function bootCampOverview(xhttp) {
+//Overview tab
+function bootCamp1(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//Tech. Basics tab
+function bootCamp2(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
