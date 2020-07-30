@@ -50,12 +50,12 @@ function loadSQL(xhttp) {
 
 //bootCamp.html AJAX callbacks
 //Overview tab
-function bootCamp1(xhttp) {
+function bootCampTab1(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
 //Tech. Basics tab
-function bootCamp2(xhttp) {
+function bootCampTab2(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
