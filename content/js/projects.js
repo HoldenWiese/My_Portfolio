@@ -69,3 +69,38 @@ function bootCampTab4(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
+//HTML and CSS Course
+function bootCampTab5(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//JavaScript Course
+function bootCampTab6(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//Python Course
+function bootCampTab7(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//SQL and Databases Course
+function bootCampTab8(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//C# and .NET Framework Course
+function bootCampTab9(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//Project Management Course
+function bootCampTab10(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//Live Project Course
+function bootCampTab11(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
