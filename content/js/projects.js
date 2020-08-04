@@ -59,3 +59,13 @@ function bootCampTab2(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
+//Software development tab
+function bootCampTab3(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
+//Version control tab
+function bootCampTab4(xhttp) {
+    document.getElementById("ajax-boot-camp").innerHTML =
+        xhttp.responseText;
+}
