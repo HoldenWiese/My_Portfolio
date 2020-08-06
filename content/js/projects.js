@@ -1,4 +1,3 @@
-console.log(0 && hi)
 //AJAX function
 function loadDoc(url, cFunction) {
     var xhttp;
@@ -48,59 +47,8 @@ function loadSQL(xhttp) {
         xhttp.responseText;
 }
 
-//bootCamp.html AJAX callbacks
-//Overview tab
-function bootCampTab1(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//Tech. Basics tab
-function bootCampTab2(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//Software development tab
-function bootCampTab3(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//Version control tab
-function bootCampTab4(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//HTML and CSS Course
-function bootCampTab5(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//JavaScript Course
-function bootCampTab6(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//Python Course
-function bootCampTab7(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//SQL and Databases Course
-function bootCampTab8(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//C# and .NET Framework Course
-function bootCampTab9(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//Project Management Course
-function bootCampTab10(xhttp) {
-    document.getElementById("ajax-boot-camp").innerHTML =
-        xhttp.responseText;
-}
-//Live Project Course
-function bootCampTab11(xhttp) {
+//Tabs within ajax-content
+function ajaxProjectTab(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
